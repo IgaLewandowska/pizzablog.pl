@@ -12,6 +12,10 @@ main {
   background: #ffffff;
 }
 
+main {
+  margin-top: 70px;
+}
+
 aside {
   height: 25px;
   position: fixed;
@@ -27,23 +31,18 @@ aside {
 .types {
   margin: 0 30px 0 30px;
 }
-main {
-  margin-top: 70px;
-}
 
 .pizza {
   grid-template-columns: 1fr 2fr;
   display: grid;
-  margin: 20px 20px 20px 20px;
-}
-
-.opis-pizzy {
-  margin-left: 20px;
+  margin: 20px 20px 20px 60px;
+  border-top: 1px solid rgb(180, 180, 180);
+  padding-top: 20px;
 }
 
 .photo {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 15px;
 }

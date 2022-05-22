@@ -3,16 +3,21 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-main {
-  display: flex;
-  width: 800px;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto;
-  background: #ffffff;
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("../photos/animacja1.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   margin-top: 70px;
 }
 
@@ -35,9 +40,13 @@ aside {
 .pizza {
   grid-template-columns: 1fr 2fr;
   display: grid;
-  margin: 20px 20px 20px 60px;
+  margin: 20px auto;
   border-top: 1px solid rgb(180, 180, 180);
   padding-top: 30px;
+}
+
+.opis-pizzy {
+  margin-left: 30px;
 }
 
 .photo {

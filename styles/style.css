@@ -4,7 +4,7 @@ body {
 }
 
 .background {
-  position: fixed;
+  margin: auto;
   top: 0;
   bottom: 0;
   right: 0;

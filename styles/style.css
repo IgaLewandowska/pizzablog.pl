@@ -11,8 +11,8 @@ body {
   left: 0;
   background-image: url("../photos/animacja1.png");
   background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 150px;
 }
 
 main {
@@ -41,7 +41,7 @@ aside {
   grid-template-columns: 1fr 2fr;
   display: grid;
   margin: 20px auto;
-  border-top: 1px solid rgb(180, 180, 180);
+  <! border-top: 1px solid rgb(180, 180, 180); >
   padding-top: 30px;
 }
 

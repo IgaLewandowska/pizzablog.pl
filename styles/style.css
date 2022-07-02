@@ -20,6 +20,11 @@ header {
   margin: 0 2vw 0 2vw;
 }
 
+#linki {
+  text-decoration: none;
+  color: black;
+}
+
 footer {
   height: 5vh;
   position: fixed;

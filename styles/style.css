@@ -16,6 +16,17 @@ header {
   z-index: 1;
 }
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 250, "GRAD" -25, "opsz" 48;
+}
+
+#icon {
+  position: absolute;
+  left: 3vw;
+  text-decoration: none;
+  color: black;
+}
+
 .types {
   margin: 0 2vw 0 2vw;
 }

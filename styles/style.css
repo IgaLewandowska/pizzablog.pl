@@ -110,6 +110,6 @@ img {
   margin-left: 7vw;
 }
 
-header:hover {
+a:hover {
   color: orange;
 }

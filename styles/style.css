@@ -20,6 +20,10 @@ header {
   font-variation-settings: "FILL" 0, "wght" 250, "GRAD" -25, "opsz" 48;
 }
 
+.types {
+  margin: 0 2vw 0 2vw;
+}
+
 #icon {
   position: absolute;
   left: 3vw;
@@ -37,14 +41,12 @@ header {
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   background-size: 230% 100%;
-  font: italic;
   background-position: right;
   background-repeat: no-repeat;
   transition: 1s linear;
 }
 
 #links {
-  margin: 0 2vw 0 2vw;
   text-decoration: none;
   color: black;
 }
@@ -123,26 +125,6 @@ img {
   margin-left: 7vw;
 }
 
-/* #links:hover {
-  color: orange;
-  text-decoration-line: underline;
-}
-
 #icon:hover {
   color: orange;
-} */
-
-/* .inverted-1:hover {
-  background: radial-gradient(circle closest-side, #fff 97%, rgb(222, 139, 75)),
-    radial-gradient(
-      circle closest-side,
-      rgb(207, 124, 47) 97%,
-      rgba(195, 118, 59, 0)
-    );
-  -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
-  background-size: 230% 100%;
-  background-position: right;
-  background-repeat: no-repeat;
-  transition: 1s linear;
-} */
+}

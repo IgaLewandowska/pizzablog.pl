@@ -25,10 +25,26 @@ header {
 }
 
 #icon {
-  position: absolute;
+  position: fixed;
   left: 3vw;
   text-decoration: none;
   color: black;
+}
+
+#icon:hover {
+  font-size: xx-large;
+  transition-duration: 0.2s;
+}
+
+.extra.fa.fa-instagram:hover {
+  font-size: larger;
+  transition-duration: 0.2s;
+}
+
+.extra {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 0.5vw;
 }
 
 .types:hover {
@@ -123,8 +139,4 @@ img {
 
 .post-description {
   margin-left: 7vw;
-}
-
-#icon:hover {
-  color: orange;
 }

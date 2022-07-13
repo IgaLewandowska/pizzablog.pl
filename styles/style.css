@@ -131,6 +131,12 @@ hr {
   flex-direction: row;
 }
 
+.pizza:hover {
+  transform: scale(1.06);
+  padding-left: 2vw;
+  transition-duration: 0.2s;
+}
+
 img {
   width: 15vw;
   height: 15vw;

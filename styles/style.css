@@ -32,7 +32,8 @@ header {
 }
 
 #icon:hover {
-  font-size: xx-large;
+  color: rgb(218, 150, 25);
+  font-variation-settings: "FILL" 0, "wght" 600, "GRAD" -25, "opsz" 60;
   transition-duration: 0.2s;
 }
 

@@ -144,6 +144,16 @@ img {
   border-radius: 15px;
 }
 
+.img-separate {
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+  border-radius: 15px;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
 .post-description {
   margin-left: 7vw;
 }

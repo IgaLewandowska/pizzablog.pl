@@ -18,6 +18,7 @@ header {
 
 .dark-mode{
   background-color: rgb(76, 74, 74);
+  color: white;
 }
 
 .material-symbols-outlined {
@@ -64,7 +65,7 @@ header {
   background-size: 230% 100%;
   background-position: right;
   background-repeat: no-repeat;
-  transition: 1s ;
+  transition: 1s ease-out;
 }
 
 #links {
@@ -80,7 +81,6 @@ footer {
   left: 0;
   right: 0;
   padding: 2vh;
-  background-color: #ffffff;
   box-shadow: 6px 6px 20px rgb(0, 0, 0, 0.1);
 }
 

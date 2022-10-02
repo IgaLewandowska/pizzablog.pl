@@ -1,4 +1,4 @@
 function myFunction() {
-    var element = document.body;
+    var element = document.header;
     element.classList.toggle('dark-mode');
 }

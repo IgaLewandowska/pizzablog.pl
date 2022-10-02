@@ -16,6 +16,11 @@ header {
   z-index: 1;
 }
 
+.dark-mode{
+  background-color: rgb(76, 74, 74);
+  color: white;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 250, "GRAD" -25, "opsz" 48;
 }
@@ -60,7 +65,7 @@ header {
   background-size: 230% 100%;
   background-position: right;
   background-repeat: no-repeat;
-  transition-timing-function: ease;
+  transition: 1s ;
 }
 
 #links {

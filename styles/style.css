@@ -60,7 +60,7 @@ header {
   background-size: 230% 100%;
   background-position: right;
   background-repeat: no-repeat;
-  transition: 1s linear;
+  transition-timing-function: ease;
 }
 
 #links {

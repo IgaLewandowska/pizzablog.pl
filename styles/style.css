@@ -16,13 +16,6 @@ header {
   z-index: 1;
 }
 
-.dark-mode {
-  background-color: rgb(53, 53, 53);
-  right: 3vw;
-  position: fixed;
-  color: black;
-}
-
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 250, "GRAD" -25, "opsz" 48;
 }

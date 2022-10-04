@@ -22,6 +22,10 @@ header {
   color: white;
 }
 
+#icon.dark-mode{
+  color: white;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 250, "GRAD" -25, "opsz" 48;
 }

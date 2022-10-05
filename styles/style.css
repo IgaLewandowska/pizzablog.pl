@@ -22,17 +22,6 @@ header {
   color: white;
 }
 
-#icon.dark-mode{
-  color: white;
-}
-
-header.dark-mode{
-  height: 3vh;
-}
-
-footer.dark-mode{
-  height: 3vh;
-}
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 250, "GRAD" -25, "opsz" 48;

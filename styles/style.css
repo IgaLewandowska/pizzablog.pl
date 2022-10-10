@@ -15,7 +15,7 @@ header {
   padding: 2vh;
   box-shadow: 6px 6px 20px rgb(0, 0, 0, 0.1);
   z-index: 1;
-
+  background-color: #fff;
 }
 
 .dark-mode{

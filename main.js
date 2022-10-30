@@ -26,9 +26,24 @@ function myFunction() {
 }
 
 function add_class(element, class_name) {
-    element.className = class_name;
+    element.classList.add(class_name);
 }
 
 function delete_class(element, class_name) {
     element.classList.remove(class_name);
+}
+
+function dark_mode() {
+    let body = document.body;
+    let dark = document.getElementsByClassName('dark_mode_on');
+    let list_class = body.className.split(' ');
+    if (list_class.includes('dark-mode')) {
+        for(let i = 0; i < dark.length; i++) {
+            delete_class(dark[i], 'dark-mode');
+        }
+    } else {
+        for(let i = 0; i < dark.length; i++) {
+            add_class(dark[i], 'dark-mode');
+        }
+    }
 }
